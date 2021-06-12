@@ -3,7 +3,7 @@ import { ReactComponent as TypescriptLogo } from '@/assets/images/typescript.svg
 import { ReactComponent as TailwindLogo } from '@/assets/images/tailwindcss.svg'
 import { ReactComponent as ReactLogo } from '@/assets/images/react.svg'
 
-function About(): React.ReactElement {
+function About(): JSX.Element {
   return (
     <div className="h-full w-full bg-gray-100 py-6 flex flex-col justify-center sm:py-12">
       <div className="relative py-3 sm:max-w-xl sm:mx-auto">

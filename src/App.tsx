@@ -1,7 +1,7 @@
 import React from 'react'
 import About from '@/components/About'
 
-function App(): React.ReactElement {
+function App() {
   return (
     <div className="h-full w-full">
       <About />
