@@ -11,8 +11,7 @@
   },
   "extends": [
     "plugin:react/recommended",
-    "eslint:recommended",
-    "plugin:prettier/recommended"
+    "eslint:recommended"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -33,13 +32,18 @@
     }
   },
   "rules": {
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": "error",
     "no-use-before-define": "off",
     "@typescript-eslint/no-use-before-define": [
       "error"
     ],
     "indent": [
       "error",
-      2
+      2,
+      {
+        "SwitchCase": 1
+      }
     ],
     "semi": [
       "error",
@@ -48,9 +52,10 @@
     "prettier/prettier": [
       "error",
       {
+        "printWidth": 120,
         "singleQuote": true,
         "semi": false,
-        "parser": "flow"
+        "parser": "typescript"
       }
     ]
   }

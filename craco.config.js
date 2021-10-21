@@ -15,5 +15,8 @@ module.exports = {
       components: path.resolve('src/components'),
     },
   },
+  babel: {
+    presets: ['@emotion/babel-preset-css-prop'],
+  },
   devServer: {},
 }

@@ -1,0 +1,5 @@
+export const MECH_TOKEN_CONTRACT = process.env.REACT_APP_MECH_TOKEN_CONTRACT as string
+
+export const NFT_BOX_FIRST_ROUND_CONTRACT = process.env.REACT_APP_NFT_BOX_FIRST_ROUND_CONTRACT as string
+export const NFT_BOX_PRIVATE_CONTRACT = process.env.EACT_APP_NFT_BOX_PRIVATE_CONTRACT as string
+export const NFT_BOX_COMMUNITY_CONTRACT = process.env.REACT_APP_NFT_BOX_COMMUNITY_CONTRACT as string
